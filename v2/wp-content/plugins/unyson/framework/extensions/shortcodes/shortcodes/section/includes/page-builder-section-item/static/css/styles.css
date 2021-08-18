@@ -1,0 +1,23 @@
+.pb-item-type-column.pb-item.custom-section {
+	background-color: #f8fdff;
+}
+
+.pb-item-type-column.pb-item .column-title {
+	margin-left: 6px;
+}
+
+
+/* collapsed */
+
+.builder-item.pb-item-section-collapsed > .pb-item-type-column > .panel .custom-section-collapse:before {
+	content: "\f142"; /* .dashicons-arrow-up */
+}
+
+.builder-item.pb-item-section-collapsed > .pb-item-type-column .builder-items.ui-sortable {
+	min-height: 0.001px;
+	height: 0.001px;
+	overflow: hidden; /* insted of display:none, prevents glitch when the second section is collapsed */
+	padding: 0;
+}
+
+/* end: collapsed */

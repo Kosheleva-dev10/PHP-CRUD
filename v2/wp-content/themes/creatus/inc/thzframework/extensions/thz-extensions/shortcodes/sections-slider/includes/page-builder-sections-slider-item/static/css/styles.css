@@ -1,0 +1,23 @@
+/* collapsed */
+
+.builder-item.pb-item-sections-slider-collapsed > .pb-item-type-column > .panel .custom-section-collapse:before {
+	content: "\f142"; /* .dashicons-arrow-up */
+}
+
+.builder-item.pb-item-sections-slider-collapsed > .pb-item-type-column > .builder-items {
+	min-height: 0.001px;
+	height: 0.001px;
+	overflow: hidden; /* insted of display:none, prevents glitch when the second section is collapsed */
+	padding: 0;
+}
+.pb-item-type-column.pb-item.sections-slider {
+    background-color: #E8FFEE;
+    border: 1px dashed #baccbe;
+    color: #4c5f51;
+}
+[class*="-collapsed"] .builder-items,
+[class*="-collapsed"] .builder-items *{
+	height:0;
+	display:none;
+}
+/* end: collapsed */

@@ -1,0 +1,66 @@
+/* Media image layers */
+.thz-image-layers-container{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.thz-image-layers{
+	max-width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.thz-image-layers-container .thz-ratio-in{
+	overflow:visible;
+}
+
+.thz-img-layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 30%;
+	z-index: 0;
+}
+
+.thz-img-layer-cpx,
+.thz-img-layer-in{
+	width:100%;
+	height:100%;
+}
+.thz-img-layer.has-img{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.thz-img-layer-cpx,
+.thz-img-layer .thz-aspect,
+.thz-img-layer .thz-ratio-in,
+.thz-img-layer .thz-hover,
+.thz-img-layer .thz-hover-mask,
+.thz-img-layer .thz-hover-mask-table,
+.thz-img-layer .thz-hover-img-mask:before {
+	border-radius: inherit;
+}
+
+.thz-media-mode-reveal .thz-img-layer .thz-hover-mask,
+.thz-media-mode-directional .thz-img-layer .thz-hover-mask,
+.thz-media-mode-thzhover .thz-img-layer .thz-hover-link {
+	z-index: 20;
+}
+
+.thz-overlay-table{
+	display:table;
+	width:100%;
+	height:100%;
+}
+.thz-overlay-cell{
+	display:table-cell;
+	vertical-align:middle;
+}
+.thz-el-type-icon{
+	text-align:center;
+}

@@ -1,0 +1,58 @@
+.thz-countdown-holder{
+	display:block;
+	position:relative;
+	text-align:center;
+}
+.thz-countdown-holder *{
+	position:relative;
+}
+.thz-countdown{
+	display:inline-block;
+	margin:0 auto;
+	width:auto;
+	text-align:center;
+	box-sizing:content-box;
+}
+.thz-countdown:after,
+.thz-countdown:before{
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.thz-cd-cell,
+.thz-cd-cell-in{
+	display:inline-block;
+	vertical-align:middle;
+	box-sizing:content-box;
+}
+
+.thz-cd-sep{
+	display:inline-block;
+	vertical-align:middle;
+	box-sizing:content-box;
+	top:0;
+}
+.thz-cd-numbers,
+.thz-cd-text{
+	vertical-align:middle;
+	line-height:1;
+	position:relative;
+	display:inline-block;
+	box-sizing:content-box;
+}
+.thz-cd-cell:before,
+.thz-cd-numbers:before,
+.thz-cd-text:before{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  margin-top:4px;
+}
+
+/* boxed */
+.thz-cd-boxed .thz-cd-text{
+	display:block;
+	clear:both;
+}

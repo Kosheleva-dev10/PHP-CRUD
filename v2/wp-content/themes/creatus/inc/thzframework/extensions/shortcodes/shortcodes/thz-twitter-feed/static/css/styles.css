@@ -1,0 +1,149 @@
+/* Twitter feed */
+.thz-twitter-feed-holder,
+.thz-twitter-feed-container,
+.thz-tw-tweet,
+.thz-tw-tweet-author {
+	display: block;
+	position: relative;
+}
+.thz-tw-tweet-quote {
+	display: block;
+	position: relative;
+	font-size: 22px;
+	word-break: break-word;
+}
+.thz-tw-tweet-quote .quote {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	padding: 0px;
+	vertical-align: middle;
+}
+.thz-tw-tweet-quote .quote:before,
+.thz-tw-tweet-quote .quote:after {
+	display: inline-block;
+	content: "\201C";
+	font-size: 1.5em;
+	line-height: 0;
+	font-family: Georgia, serif;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.thz-tw-tweet-quote .quote:after {
+	content: "\201D";
+	vertical-align: bottom;
+	margin: 0 0 0 5px;
+}
+/* left */
+.thz-tw-tweet.left .thz-tw-tweet-quote {
+	text-align: left;
+}
+.thz-tw-tweet.left .thz-tw-tweet-info {
+	display: table;
+	position: relative;
+	margin: 30px 0 0 0;
+}
+.thz-tw-tweet.left .thz-tw-tweet-avatar,
+.thz-tw-tweet.left .thz-tw-tweet-author {
+	display: table-cell;
+	vertical-align: middle;
+}
+.thz-tw-tweet.left .thz-tw-tweet-avatar-holder {
+	margin: 0 15px 0 0;
+}
+/* center */
+.thz-tw-tweet.center .thz-tw-tweet-quote {
+	text-align: center;
+}
+.thz-tw-tweet.center .thz-tw-tweet-info {
+	display: block;
+	position: relative;
+	margin: 30px 0 0 0;
+	text-align: center;
+}
+.thz-tw-tweet.center .thz-tw-tweet-avatar-holder {
+	margin: 0 auto 15px auto;
+}
+/* right */
+.thz-tw-tweet.right .thz-tw-tweet-quote {
+	text-align: right;
+}
+.thz-tw-tweet.right .thz-tw-tweet-info {
+	display: table;
+	position: relative;
+	margin: 30px 0 0 0;
+	float: right;
+}
+.thz-tw-tweet.right .thz-tw-tweet-avatar,
+.thz-tw-tweet.right .thz-tw-tweet-author {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+.thz-tw-tweet.right .thz-tw-tweet-avatar-holder {
+	margin: 0 0 0 15px;
+}
+.thz-tw-tweet-avatar-holder.av-icon i {
+	font-size:60px;
+}
+.thz-tw-tweet-avatar-holder.av-image {
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+.thz-tw-tweet-avatar-holder a{
+	width:inherit;
+	height:inherit;
+}
+.thz-tw-tweet-avatar-holder img {
+	display: block;
+	width:inherit;
+	height:inherit;
+}
+.thz-tw-tweet-avatar-holder.circle,
+.thz-tw-tweet-avatar-holder.circle img {
+	border-radius: 50%;
+}
+.thz-tw-tweet-avatar-holder.rounded,
+.thz-tw-tweet-avatar-holder.rounded img {
+	border-radius: 4px;
+}
+.thz-tw-tweet-name {
+	display: block;
+	font-weight: 600;
+}
+.thz-tw-tweet-user {
+	display: inline-block;
+	vertical-align: middle;
+}
+.thz-tw-tweet-link {
+	display: inline-block;
+	vertical-align: middle;
+}
+/* arrow */
+.show-arrow .thz-tw-tweet-quote:after {
+	display: block;
+	content: '';
+	width: 16px;
+	height: 16px;
+	background: inherit;
+	border: inherit;
+	position: absolute;
+	bottom: -9px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	border-top: transparent;
+	border-left: transparent;
+}
+.show-arrow .thz-tw-tweet.left .thz-tw-tweet-quote:after {
+	left: 20px;
+}
+.show-arrow .thz-tw-tweet.center .thz-tw-tweet-quote:after {
+	left: 50%;
+	margin-left: -8px;
+}
+.show-arrow .thz-tw-tweet.right .thz-tw-tweet-quote:after {
+	right: 20px;
+}

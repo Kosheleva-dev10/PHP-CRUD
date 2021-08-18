@@ -1,0 +1,115 @@
+.thz-progress-bars-set {
+	display: block;
+	position: relative;
+}
+.thz-progress-bar {
+	display: block;
+	background: #efefef;
+	margin: 0 0 20px 0;
+	position: relative;
+	overflow: hidden;
+	clear: both;
+	float: none;
+}
+.thz-progress-bar-title {
+	position: relative;
+	z-index: 5;
+}
+.thz-progress-bar-progress {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #039bf4;
+	width: 0;
+	max-width: 100%;
+	z-index: 1;
+	border-radius: inherit;
+	text-align: right;
+}
+.thz-progress-percentage {
+	position: relative;
+	z-index: 3;
+}
+/* style 1 */
+.thz-progress-bars-style1 .thz-progress-bar-title {
+	color: #fff;
+}
+.thz-progress-bars-style1 .thz-progress-percentage {
+	display: block;
+	float: right;
+	color: #0a0a0a;
+}
+/* style 2 */
+.thz-progress-bars-style2 .thz-progress-bar-title {
+	color: #fff;
+}
+.thz-progress-bars-style2 .thz-progress-percentage {
+	display: inline-block;
+	color: #fff;
+	margin-left: 10px;
+}
+/* style 3 */
+.thz-progress-bars-style3 .thz-progress-bar-title {
+	display: block;
+	float: left;
+	color: #0a0a0a;
+	margin: 0 0 10px 0;
+}
+.thz-progress-bars-style3 .thz-progress-percentage {
+	display: block;
+	float: right;
+	color: #0a0a0a;
+	margin: 0 0 5px 0;
+}
+/* Pill */
+.thz-progress-pill {
+	border-radius: 200px;
+}
+/* Candy */
+.thz-progress-candy:after,
+.thz-progress-candy-animate:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent) );
+	background-image: -moz-linear-gradient( -45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent );
+	z-index: 1;
+	-webkit-background-size: 50px 50px;
+	-moz-background-size: 50px 50px;
+	background-size: 50px 50px;
+}
+.thz-progress-candy-animate:after {
+	-webkit-animation: moveCandy 2s linear infinite;
+	-moz-animation: moveCandy 2s linear infinite;
+	animation: moveCandy 2s linear infinite;
+}
+ @-webkit-keyframes moveCandy {
+ 0% {
+ background-position: 0 0;
+}
+ 100% {
+ background-position: 50px 50px;
+}
+}
+ @-moz-keyframes moveCandy {
+ 0% {
+ background-position: 0 0;
+}
+ 100% {
+ background-position: 50px 50px;
+}
+}
+@keyframes moveCandy {
+ 0% {
+ background-position: 0 0;
+}
+ 100% {
+ background-position: 50px 50px;
+}
+}

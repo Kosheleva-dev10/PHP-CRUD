@@ -1,0 +1,112 @@
+/**
+ * @package      Assign Widgets
+ * @copyright    Copyright(C) since 2015  Themezly.com. All Rights Reserved.
+ * @author       Themezly
+ * @license      http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2
+ * @websites     http://www.themezly.com
+ */
+.thz_aw_holder{
+	display:block;
+	clear:both;
+	width:auto;
+	padding:0;
+	margin:0 0 10px 0;
+}
+.thz_aw_holder:before,
+.thz_aw_holder:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+.thz_aw_holder select{
+	width:100%;
+}
+.thz_aw_holder label{
+	margin-bottom:10px;
+	display:block;
+}
+
+.thz-content-layout-autocomplete-menu{
+	overflow: auto;
+	overflow-x:hidden;
+	max-height: 270px;
+	max-width:500px;
+}
+
+.thz_aw_holder .selectize-dropdown .optgroup-header{
+    font-weight:bold;
+    font-size:14px;
+}
+.thz_aw_holder .selectize-dropdown .optgroup .option{
+    padding-left:20px;
+}
+.thz_aw_info{
+	display:block;
+	clear:both;
+	font-style:italic;
+	color:#999;
+	margin:5px 0;
+}
+#thz_aw_sidebar_generator{
+	display:block;
+	padding:20px 15px 30px 15px;
+	margin:20px 0 0 0;
+	background:#fff;
+  border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);	
+}
+
+#thz_aw_sidebar_generator input#thz_aw_sidebar_name{
+  border: 1px solid #ddd;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+  background-color: #fff;
+  color: #32373c;
+  outline: 0;
+}
+
+#thz_aw_sidebar_generator .button.thz_aw_add_sidebar{
+	margin-left:30px;
+}
+
+#thz_aw_sidebar_generator .thz_aw_sidebar_msg{
+	display:block;
+	color:green;
+	font-weight:bold;
+	font-size:14px;
+	margin:10px 0 0 0;
+}
+.thz_aw_remove_sidebar{
+	color: #EF4836;
+	float:left;
+	margin:14px 10px 0 0;
+}
+
+.thz_aw_remove_sidebar span {
+	position: absolute;
+	top: 20px;
+	right:20px;
+	padding: 0;
+	background: url('../images/spinner.gif') no-repeat;
+	background-size: 15px 15px;
+	display: none;
+	opacity: .7;
+	width: 20px;
+	height: 20px;
+	margin: -5px 5px;
+	float: none;
+}
+.stayclosed{
+	height:50px;
+	overflow:hidden;
+}
+
+div[id^=thz_aw_widget_area] .thz_aw_current_title{
+	font-size: 12px;
+	position:absolute;
+	bottom:5px;
+	right:0px;
+	color:#999;
+	display:block;
+}

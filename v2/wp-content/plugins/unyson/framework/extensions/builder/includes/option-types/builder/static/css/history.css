@@ -1,0 +1,46 @@
+.fw-option-type-builder .history-container {
+	float: left;
+}
+
+body.rtl .fw-option-type-builder .history-container {
+	float: right;
+}
+
+.fw-option-type-builder .history-container a {
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.fw-option-type-builder .history-container a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.fw-option-type-builder .history-container a.disabled {
+	margin-right: 10px;
+	text-decoration: none;
+	color: #b2b2b2;
+}
+
+.fw-option-type-builder a.undo {
+	background-image: url(../img/history/undo.png);
+	background-repeat: no-repeat;
+	padding-left: 14px;
+	background-position: left center;
+}
+
+.fw-option-type-builder a.undo.disabled {
+	background-image: url(../img/history/undo_disabled.png);
+}
+
+.fw-option-type-builder a.redo {
+	background-image: url(../img/history/redo.png);
+	background-repeat: no-repeat;
+	padding-left: 14px;
+	background-position: left center;
+	margin-left: 14px;
+}
+
+.fw-option-type-builder a.redo.disabled {
+	background-image: url(../img/history/redo_disabled.png);
+}

@@ -1,0 +1,89 @@
+.thz-circle-progress-holder{
+	display:block;
+	padding:0;
+	position:relative;
+	text-align:center;
+}
+.thz-circle-progress{
+	margin:0 auto;
+	display:table;
+	height:100%;
+	width:auto;
+	position:relative;
+	background:none;
+	border-radius:100%;
+	padding:0px;
+    box-sizing:content-box;
+}
+.thz-circle-progress-inner{
+	display:table-cell;
+	vertical-align:middle;
+	height:170px;
+	width:170px;
+	border-radius:100%;
+	background:none;
+	position:relative;
+	padding:0;
+	box-sizing:content-box;
+	line-height:1;
+}
+.thz-circle-progress:after,
+.thz-circle-progress-inner:after{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	border-radius:100%;
+	border:none;
+	z-index:1;
+}
+.thz-circle-progress-inner:after{
+	z-index:2;
+}
+.thz-circle-progress-holder canvas{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:5;
+}
+
+.thz-circle-progress-title{
+	display:block;
+	clear:both;
+	line-height:1;
+}
+
+/* title spacer */
+.thz-circle-progress-title:after{
+	content:'';
+	height:0px;
+	width:100%;
+	display:block;
+	margin:0 auto;
+	clear:both;
+}
+
+.thz-circle-progress-value-holder{
+	display: table;
+	padding:0px;
+	margin:0 auto;
+	overflow:hidden;
+	width:auto;
+	text-align:center;
+}
+.thz-circle-progress-spacer,
+.thz-circle-progress-value-text,
+.thz-circle-progress-icon{
+	display:table-cell;
+	vertical-align:middle;
+	line-height:1;
+	position:relative;
+	z-index:3;
+}
+.thz-circle-progress-unit,
+.thz-circle-progress-value{
+	position:relative;
+	z-index:3;
+}

@@ -1,0 +1,84 @@
+/* Thumb */
+.fw-option-type-page-builder .builder-item-type[data-builder-item-type="innercolumn"] img {
+	width: 30px;
+	height: 25px;
+}
+
+/* Column Builder Item */
+.pb-item-type-innercolumn {
+    background-color: #f1f1f1;
+    border: 1px dashed #b9b9b9;
+	color: #01729c;
+	min-height: 35px;
+}
+
+/* Panel */
+.pb-item-type-innercolumn > .panel {
+	padding: 10px 5px;
+	font-size: 12px;
+}
+.pb-item-type-innercolumn > .panel .innercolumn-title .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+}
+.pb-item-type-innercolumn > .panel i {
+	cursor: pointer;
+	font-size: 16px;
+}
+.pb-item-type-innercolumn > .panel i:hover {
+	color: #019aca;
+}
+.pb-item-type-innercolumn > .panel .controls {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+body.rtl .pb-item-type-innercolumn > .panel .controls {
+	right: initial;
+	left: 0;
+}
+.pb-item-type-innercolumn:hover > .panel .controls {
+	display: block;
+}
+.builder-item.ui-sortable-helper > .pb-item-type-innercolumn:hover > .panel .controls {
+	display: none;
+}
+
+/* Hide Duplicate Button when 1/6 innercolumn & small screen */
+@media (max-width: 1824px) {
+	.builder-item.fw-col-sm-2 .pb-item-type-innercolumn.has-options .innercolumn-item-clone {
+		display: none;
+	}
+}
+
+/* Inner Items */
+.pb-item-type-innercolumn > .builder-items {
+	padding: 7px 0 13px;
+	min-height: 83px;
+}
+.pb-item-type-innercolumn > .builder-items > .builder-item {
+	padding: 0 11px 11px;
+}
+
+/* Accept / Deny Incoming Items */
+.builder-item.fw-builder-item-deny-incoming-type > .pb-item-type-innercolumn .ui-sortable-placeholder {
+	display: none;
+}
+
+
+/* collapsed */
+
+.builder-item.pb-item-innercolumn-collapsed > .pb-item-type-innercolumn > .panel .innercolumn-item-collapse:before {
+	content: "\f142"; /* .dashicons-arrow-up */
+}
+
+.builder-item.pb-item-innercolumn-collapsed > .pb-item-type-innercolumn > .builder-items {
+	min-height: 0.001px;
+	height: 0.001px;
+	overflow: hidden; /* insted of display:none, prevents glitch when the second section is collapsed */
+	padding: 0;
+}
+
+/* end: collapsed */

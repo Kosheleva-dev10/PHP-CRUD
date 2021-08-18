@@ -1,0 +1,146 @@
+body.rtl .fw-option-type-builder .template-container {
+	float: left;
+}
+
+.fw-option-type-builder .template-container .template-btn {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.fw-option-type-builder .template-container .template-btn:before {
+	content: "\f135";
+	font-family: dashicons;
+	padding-right: 3px;
+	vertical-align: text-bottom;
+	line-height: normal;
+}
+
+.fw-option-type-builder .template-container a:focus {
+	box-shadow: none;
+}
+
+.fw-builder-templates-tooltip-content {
+	text-align: left;
+	padding: 5px;
+	min-height: 70px; /* space for loading */
+}
+
+.fw-builder-templates-tooltip-content .fw-builder-templates-tooltip-loading {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #333333;
+}
+.fw-builder-templates-tooltip-content .fw-builder-templates-tooltip-loading .loading-icon {
+	display: block;
+	position: relative;
+	top: 50%;
+	margin: -15px auto 0 auto;
+	font-size: 30px;
+	color: #555;
+	text-align: center;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type {
+	border-bottom: 1px solid #4B4B4B;
+	border-bottom: 1px solid rgba(208, 208, 208, 0.15);
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type:last-child {
+	border-bottom-width: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type > .fw-builder-templates-type-title {
+	display: block;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type > .fw-builder-templates-type-title:focus {
+	box-shadow: none;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type > .fw-builder-templates-type-content {
+	border-top: 1px dashed #4B4B4B;
+	border-top: 1px dashed rgba(208, 208, 208, 0.15);
+
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type > .fw-builder-templates-type-content .no-full-templates {
+	margin-top: 10px;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type > .fw-builder-templates-type-content .load-template-title {
+	margin: 10px 0;
+}
+
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std {
+	margin: 0;
+	width: 100%;
+	max-height: 200px;
+	overflow: auto;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li {
+	font-style: normal;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	list-style-type: none;
+	margin-left: 4px;
+	text-align: left;
+	line-height: 18px;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li a.template-title {
+	display: block;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li a.template-title:before {
+	content: "•"; /* emulate native list bullet */
+	font-size: 1.6em;
+	vertical-align: sub;
+	line-height: 1px;
+	padding-right: 5px;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li,
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li a {
+	color: #b1b1b1 !important;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li:hover,
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li:hover a {
+	color: #eee !important;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li a {
+	text-decoration: none !important;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li a:focus {
+	box-shadow: none;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li:last-child {
+	padding-bottom: 0px;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li a.template-delete {
+	float: right;
+	visibility: hidden;
+	margin-top: 3px;
+	text-decoration: none !important;
+}
+
+.fw-builder-templates-types > .fw-builder-templates-type ul.std li:hover a.template-delete {
+	visibility: visible;
+}

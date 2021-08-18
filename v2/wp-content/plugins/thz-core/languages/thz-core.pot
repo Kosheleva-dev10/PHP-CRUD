@@ -1,0 +1,507 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Thz Core\n"
+"POT-Creation-Date: 2018-10-25 12:51+0200\n"
+"PO-Revision-Date: 2017-07-10 02:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.13\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: thz-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/includes/activate/activation.class.php:79
+msgid ""
+"Your activation request could not be processed. Please try again in a few "
+"minutes. If this problem persists, please contact us."
+msgstr ""
+
+#: inc/includes/activate/admin-notice.class.php:27
+msgid ""
+"Notice won't be displayed because it was generated after admin_notices "
+"filter"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:64
+msgid ""
+"Before updating, please make sure you install and activate Creatus PRO."
+msgstr ""
+
+#: inc/includes/activate/page.class.php:74
+#: inc/includes/activate/page.class.php:75
+#: inc/includes/activate/page.class.php:144
+msgid "Creatus Activation"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:92
+msgid "There was an error with code 100"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:96
+msgid "There was an error with code 101"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:100
+msgid "There was an error with code 102"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:104
+msgid "There was an error with code 103"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:108
+msgid "There was an error with code 104"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:112
+msgid "There was an error with code 105"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:116
+msgid "There was an error with code 130"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:149
+msgid "Updates & Support Are Not Active!"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:156
+msgid "Enter your purchase code"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:158
+msgid "Need help with activation?"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:158
+msgid "Visit the docs"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:163
+msgid "Click to activate your theme"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:167
+msgid "Updates & Support Are Active"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:168
+msgid "Your theme is active."
+msgstr ""
+
+#: inc/includes/activate/page.class.php:168
+msgid "Have fun!"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:170
+msgid "If you need any assistance please"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:170
+msgid "contact us"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:174
+msgid "Deactivate"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:193
+msgid "Overview"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:210
+msgid "Please enter a valid purchase code."
+msgstr ""
+
+#: inc/includes/activate/page.class.php:234
+msgid "To manually remove the activation code, please click the button below"
+msgstr ""
+
+#: inc/includes/activate/page.class.php:238
+msgid "Remove activation code"
+msgstr ""
+
+#: inc/includes/hooks.php:149 inc/includes/hooks.php:262
+#: inc/includes/hooks.php:263
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/includes/hooks.php:159 inc/includes/hooks.php:274
+#: inc/includes/hooks.php:275
+msgid "Backup & Restore"
+msgstr ""
+
+#: inc/includes/hooks.php:168 inc/includes/hooks.php:282
+#: inc/includes/hooks.php:283
+msgid "Demo Install"
+msgstr ""
+
+#: inc/includes/hooks.php:177 inc/includes/hooks.php:292
+#: inc/includes/hooks.php:293
+msgid "Export/Import"
+msgstr ""
+
+#: inc/includes/hooks.php:187 inc/includes/hooks.php:302
+#: inc/includes/hooks.php:303
+msgid "Import Fonts"
+msgstr ""
+
+#: inc/includes/hooks.php:195 inc/includes/hooks.php:311
+msgid "System Info"
+msgstr ""
+
+#: inc/includes/hooks.php:203 inc/includes/hooks.php:328
+msgid "Support"
+msgstr ""
+
+#: inc/includes/hooks.php:213 inc/includes/hooks.php:334
+msgid "Documentation"
+msgstr ""
+
+#: inc/includes/hooks.php:310
+msgid "Creatus System Info"
+msgstr ""
+
+#: inc/includes/shortcodes.php:56
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/includes/shortcodes.php:73
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: inc/includes/shortcodes.php:77
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: inc/includes/shortcodes.php:81
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: inc/includes/shortcodes.php:86
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: inc/includes/shortcodes.php:94
+#, php-format
+msgid "Searching for: %s"
+msgstr ""
+
+#: inc/includes/shortcodes.php:98
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/includes/twitteroauth/twitteroauth.php:202
+msgid "No response from Twitter"
+msgstr ""
+
+#: inc/includes/update/update-plugin.class.php:298
+#: inc/includes/update/update-plugin.class.php:302
+msgid ""
+"An unexpected error occurred. Something may be wrong with your server "
+"configuration. If you continue to have problems, please contact us."
+msgstr ""
+
+#: inc/includes/views/widgets-view.php:15
+msgid "Custom widget ID:"
+msgstr ""
+
+#: inc/includes/views/widgets-view.php:17
+msgid "This option will replace current widget HTML ID. Not used if empty."
+msgstr ""
+
+#: inc/includes/views/widgets-view.php:20
+msgid "Custom widget class:"
+msgstr ""
+
+#: inc/includes/views/widgets-view.php:22
+msgid ""
+"This option will add custom HTML class to widget class names. Not used if "
+"empty."
+msgstr ""
+
+#: thz-core.php:297
+msgctxt "Post Type General Name"
+msgid "Page Blocks"
+msgstr ""
+
+#: thz-core.php:298
+msgctxt "Post Type Singular Name"
+msgid "Page Block"
+msgstr ""
+
+#: thz-core.php:299
+msgid "Page Blocks"
+msgstr ""
+
+#: thz-core.php:300
+msgid "Page Block"
+msgstr ""
+
+#: thz-core.php:301
+msgid "Item Archives"
+msgstr ""
+
+#: thz-core.php:302
+msgid "Item Attributes"
+msgstr ""
+
+#: thz-core.php:303
+msgid "Parent Item:"
+msgstr ""
+
+#: thz-core.php:304
+msgid "All Blocks"
+msgstr ""
+
+#: thz-core.php:305 thz-core.php:306
+msgid "Add New Block"
+msgstr ""
+
+#: thz-core.php:307
+msgid "New Block"
+msgstr ""
+
+#: thz-core.php:308
+msgid "Edit Block"
+msgstr ""
+
+#: thz-core.php:309
+msgid "Update Block"
+msgstr ""
+
+#: thz-core.php:310
+msgid "View Block"
+msgstr ""
+
+#: thz-core.php:311
+msgid "View Blocks"
+msgstr ""
+
+#: thz-core.php:312
+msgid "Search Blocks"
+msgstr ""
+
+#: thz-core.php:313
+msgid "Not found"
+msgstr ""
+
+#: thz-core.php:314
+msgid "Not found in Trash"
+msgstr ""
+
+#: thz-core.php:315
+msgid "Blocks list"
+msgstr ""
+
+#: thz-core.php:316
+msgid "Blocks list navigation"
+msgstr ""
+
+#: thz-core.php:317
+msgid "Filter items list"
+msgstr ""
+
+#: thz-core.php:322
+msgid "Page block"
+msgstr ""
+
+#: thz-core.php:323
+msgid "Page block for Creatus theme"
+msgstr ""
+
+#: thz-core.php:348
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: thz-core.php:349
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: thz-core.php:350
+msgid "Search Categories"
+msgstr ""
+
+#: thz-core.php:351
+msgid "Popular Categories"
+msgstr ""
+
+#: thz-core.php:352
+msgid "All Categories"
+msgstr ""
+
+#: thz-core.php:353
+msgid "Parent Category"
+msgstr ""
+
+#: thz-core.php:354
+msgid "Edit Category"
+msgstr ""
+
+#: thz-core.php:355
+msgid "Update Category"
+msgstr ""
+
+#: thz-core.php:356
+msgid "Add New Category"
+msgstr ""
+
+#: thz-core.php:357
+msgid "New Category"
+msgstr ""
+
+#: thz-core.php:358
+msgid "Separate categories with commas"
+msgstr ""
+
+#: thz-core.php:359
+msgid "Add or removecategories"
+msgstr ""
+
+#: thz-core.php:360
+msgid "Choose from most used categories"
+msgstr ""
+
+#: thz-core.php:370
+msgid "Page Blocks Categories"
+msgstr ""
+
+#: thz-core.php:393
+msgid "Title"
+msgstr ""
+
+#: thz-core.php:394
+msgid "Categories"
+msgstr ""
+
+#: thz-core.php:395
+msgid "Position"
+msgstr ""
+
+#: thz-core.php:396
+msgid "Assignment"
+msgstr ""
+
+#: thz-core.php:397
+msgid "Visibility"
+msgstr ""
+
+#: thz-core.php:398
+msgid "Date"
+msgstr ""
+
+#: thz-core.php:399
+msgid "ID"
+msgstr ""
+
+#: thz-core.php:429
+msgid "Shown only on these pages;"
+msgstr ""
+
+#: thz-core.php:433
+msgid "Hidden on these pages;"
+msgstr ""
+
+#: thz-core.php:442
+msgid "All pages"
+msgstr ""
+
+#: thz-core.php:448 thz-core.php:473
+msgid "To display data please enable Unyson plugin"
+msgstr ""
+
+#: thz-core.php:467
+msgid "Everyone"
+msgstr ""
+
+#: thz-core.php:575
+msgid "Front Page"
+msgstr ""
+
+#: thz-core.php:576
+msgid "Blog Home Page"
+msgstr ""
+
+#: thz-core.php:577
+msgid "Posts page"
+msgstr ""
+
+#: thz-core.php:578
+msgid "Attachment Page"
+msgstr ""
+
+#: thz-core.php:579
+msgid "Search Page"
+msgstr ""
+
+#: thz-core.php:580
+msgid "404 Page"
+msgstr ""
+
+#: thz-core.php:581
+msgid "Author Archive"
+msgstr ""
+
+#: thz-core.php:582
+msgid "Tags Archive"
+msgstr ""
+
+#: thz-core.php:598
+msgid "Blog "
+msgstr ""
+
+#: thz-core.php:600
+msgid "Single "
+msgstr ""
+
+#: thz-core.php:613
+msgid "Posts Archive"
+msgstr ""
+
+#: thz-core.php:618
+msgid " Archive"
+msgstr ""
+
+#: thz-core.php:624
+msgid "BuddyPress"
+msgstr ""
+
+#: thz-core.php:629
+msgid "Shop Homepage"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Thz Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/Themezly/Thz-Core"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Thz Core Plugin for Creatus Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themezly"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themezly.com"
+msgstr ""

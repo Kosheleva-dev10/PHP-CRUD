@@ -1,0 +1,30 @@
+/* Exit Popup */
+.thz-exit-popup-box.thz-popup-box{
+	width:100%;
+	position:absolute;
+	top:-99999999px;
+	opacity:0;
+	z-index:-1;
+}
+.mfp-content .thz-exit-popup-box.thz-popup-box{
+	top:auto;
+	opacity:1;
+	z-index:auto;
+	position:relative;
+}
+.thz-exit-popup-in{
+	position:relative;
+	z-index:2;
+}
+.thz-exit-popup-box.pbox-small{
+    max-width: 400px;
+}
+.thz-exit-popup-box.pbox-medium{
+    max-width: 700px;
+}
+.thz-exit-popup-box.pbox-large {
+    max-width: 900px;
+}
+.thz-exit-popup-box.pbox-xlarge {
+    max-width: 1200px;
+}

@@ -1,0 +1,30 @@
+#fw-ext-backups-demo-list .theme .theme-actions {
+	opacity: 1;
+	top: auto;
+	bottom: 0;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+#fw-ext-backups-demo-list .theme a.more-details {
+	text-decoration: none;
+}
+
+#fw-ext-backups-demo-list .fw-ext-backups-demo-item.active .theme-actions {
+	display: none;
+}
+
+
+/* status modal */
+
+.fw-ext-backups-demo-status-modal .progress-percent {
+	background: #ddd;
+	margin: 0 30px;
+}
+
+.fw-ext-backups-demo-status-modal .progress-percent > div {
+	background: #0085ba;
+	height: 3px;
+}
+
+/* end: status modal */

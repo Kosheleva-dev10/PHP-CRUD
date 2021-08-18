@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+
+/* body {
+  padding-top: 60px;
+} */
+
+.table tbody td {
+  text-align: center;
+}
+
+.table tbody td i {
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-3 {
+    display: inline-block;
+  }
+  .nav li {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 338px) {
+  .nav li {
+    width: 100%;
+    padding: 0 0 10px 10px;
+  }
+}
+
+.records_content {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.records_content::-webkit-scrollbar {
+  display: none;
+}
+
+.announcement_content {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.announcement_content::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* @media (max-width: 768px) {
+  #search_form .row .col-3 {
+    width: 50%;
+    margin: 0;
+    display: inline-block;
+  }
+  #search_form .row .col-3 button {
+    justify-content: center;
+  }
+} */

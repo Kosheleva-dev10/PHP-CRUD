@@ -1,0 +1,19 @@
+/* Before after */
+.thz-before-after {
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	position: relative;
+}
+.thz-before-after img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	position: relative;
+}

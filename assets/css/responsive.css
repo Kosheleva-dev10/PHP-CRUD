@@ -1,0 +1,343 @@
+
+/* To make Responsive
+---------------------------------------------------------------------- /
+*
+*  1 - media screen and (max-width: 992px)
+*  2 - media screen and (max-width: 800px)
+*  3 - media screen and (max-width: 768px)
+*  4 - media screen and (max-width: 640px)
+*  5 - media screen and (max-width: 500px)
+*  6 - media screen and (max-width: 480px)
+*  7 - media screen and (max-width: 320px)
+*  8 - media screen and (max-width: 1170px)
+*
+---------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 320px){
+	.container {
+		width: 100%;
+	}
+	.page-title {
+		font-size: 2.5em;
+	}
+
+}
+
+
+@media screen and (max-width: 480px){
+	.container {
+		width: 100%;
+	}
+
+	.main-slider .slider-info {
+		font-size: 1em;
+		padding: 10px 20px;
+	}
+
+	.featured-image img {
+		margin: 0px;
+	}
+
+	.single-slider .carousel-control.left, .single-slider .carousel-control.right {
+		top: 85%;
+	}
+
+	.single-slider .carousel-control.left {
+		left: 44%;
+	}
+
+	.single-slider .carousel-control.right {
+		right: 44%;
+	}
+
+	.single-post {
+		padding-top: 50px;
+	}
+
+	.single-post-text {
+		padding-bottom: 50px;
+	}
+
+	.children,
+	.comment-top {
+		padding-left: 0px;
+	}
+
+	.page-title {
+		font-size: 3em;
+	}
+}
+
+
+
+@media screen and (max-width: 640px){
+	
+	.container {
+		width: 100%;
+	}
+	.navbar-brand img{
+		padding: 0;
+	}
+	.slider-title{
+		font-size: 1.5em;
+	}
+	.main-slider .btn-container{
+		padding-bottom: 20px;
+	}
+	.btn{
+		padding: 5px 15px 5px 15px;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+	figure.effect-hera figcaption::before {
+		width: 100px;
+		height: 100px;
+	}
+	.about-price{
+		left: 39%;
+	}
+	.news-image{
+		max-width: 100%;
+	}
+	.section-title {
+		padding-top: 60px;
+		font-size: 1.25em;
+	}
+	.slider-sub{
+		font-size: 1.75em;
+	}
+	.section-title:before{
+		margin-top:-10px;
+	}
+	.section-title:after {
+		margin-top: 20px;
+	}
+	.section-title:before, .section-title:after {
+		top: 63px;
+	}
+
+	.latest-post .item {
+		padding: 5px;
+		margin: 5px;
+	}
+
+	.entry-meta span {
+		font-size: .8em;
+	}
+
+	.testimonial .col-md-4 {
+		padding: 0px;
+	}
+
+	.single-slider .carousel-control.left {
+		left: 45%;
+	}
+
+	.single-slider .carousel-control.right {
+		right: 45%;
+	}
+
+	.page-description {
+		padding: 0px;
+	}
+
+	.welcome-slider .item {
+		max-width: inherit;
+		max-height: inherit;
+	}
+
+	.member-image img {
+		max-width: 15%;
+	}
+
+	.page-heading-shortcode .page-description {
+		padding: 0px;
+	}
+}
+
+
+
+@media screen and (min-width: 641px) and (max-width: 768px){
+	.container {
+		width: 100%;
+	}
+	.slider-title{
+		font-size: 1.25em;
+		letter-spacing: 0;
+		padding-top: 90px;
+	}
+	.slider-sub{
+		font-size: 1.5em;
+	}
+	.navbar-brand img{
+		padding:0;
+	}
+	.slider-video{
+		top: 48%;
+		left: 35.5%;
+		margin-left: -55px;
+		margin-top: -55px;
+	}
+	.login-form{
+		padding:7px 8px 5px 7px;
+		width: 200px;
+		right: 10px;
+	}
+	.slider-video{
+		left: 53.5%;
+		top: 55%;
+	}
+	.slider-description{
+		padding-bottom: 10px;
+		font-size: .8em;
+	}
+	.main-slider .btn-container a{
+		margin-bottom: 10px;
+	}
+	.navbar-nav>li.menu-item-has-children{
+		padding-right: 0;
+		padding-left: 10px;
+	}
+
+	figure.effect-hera figcaption::before {
+		width: 90px;
+		height: 90px;
+	}
+	.about-price{
+		left: 33%;
+	}
+	.shortcode .about-price{
+		left: 40%;
+	}
+	.section-area{
+		padding-top: 60px;
+	}
+	.green .aside-left , .aside-left{
+		left:42%;
+	}
+	.blog-sidebar {
+		padding-top: 60px !important;
+	}
+
+	.recent-post-details {
+		padding-right: 35px;
+	}
+
+	.single-slider .carousel-control.left {
+		left: 46%;
+	}
+
+	.single-slider .carousel-control.right {
+		right: 46%;
+	}
+	
+	.single-post-text {
+		padding-top: 60px;
+	}
+
+	.contact-details {
+		padding: 60px 0 0 0;
+	}
+
+	.link-content {
+		overflow: hidden;
+	}
+
+	.page-v1 .media-content {
+		padding: 60px 0 0 0;
+	}
+
+	.about-welcome, .our-skills {
+		padding-left: 0px;
+	}
+
+	.our-team .item {
+		padding-bottom: 60px;
+	}
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+	.container {
+		width: 100%;
+	}
+	.main-slider .slider-text{
+		
+	}
+	.slider-title{
+		font-size: 1.25em;
+		letter-spacing: 0;
+		padding-top: 90px;
+	}
+	.slider-sub{
+		font-size: 1.5em;
+	}
+	.shortcode .about-price{
+		left: 42%;
+	}
+	.main-slider .btn-container a{
+		margin-bottom: 20px;
+	}
+	.top-slider .carousel-indicators{
+		left: 34%;
+	}
+	figure.effect-hera figcaption::before {
+		width: 110px;
+		height: 110px;
+	}
+	.news-image img{
+		min-width: 100%;
+	}
+	.welcome-slider,
+	.accordion,
+	.text-content,
+	.left-pattern {
+		padding-right: 0px;
+	}
+
+	.right-pattern,
+	.blog-sidebar {
+		padding-left: 0px;
+	}
+
+	.tag-cloud-wrapper a {
+		margin: 2px 0px;
+	}
+}
+
+
+/* 1 - media screen and (max-width: 1200px)
+---------------------------------------------------------------------- */
+@media screen and (min-width: 993px) and (max-width: 1279px){	
+	.slider-title{
+		font-size: 1.4em;
+	}
+	.slider-sub{
+		font-size: 1.9em;
+	}
+	.slider-video {
+		top: 48%;
+		left: 55%;
+		margin-left: -55px;
+		margin-top: -55px;
+	}
+	.main-slider .btn-container a{
+		margin-bottom: 20px;
+	}
+	.about-price{
+		left: 23%;
+	}
+	.top-slider .carousel-indicators{
+		left:34%;
+	}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1680px) {	
+	.slider-video{
+		left: 38.5%;
+	}	
+}

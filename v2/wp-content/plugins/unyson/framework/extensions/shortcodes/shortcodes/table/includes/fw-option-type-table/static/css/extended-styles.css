@@ -1,0 +1,50 @@
+.fw-option-type-table .fw-table-cell-worksheet.highlight-col {
+	-moz-box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+	z-index: 10;
+	position: relative;
+}
+
+.fw-option-type-table .fw-table-cell-worksheet.desc-col {
+	text-align: right;
+	color: #999;
+	border-bottom-style: dotted !important;
+	font-style: italic;
+	background: transparent;
+	width: 150px;
+}
+
+.fw-option-type-table .pricing-row .fw-table-cell-worksheet:not(.desc-col) {
+	font-size: 20px;
+}
+
+.fw-option-type-table .fw-table-cell-worksheet.center-col {
+	text-align: center;
+}
+
+.fw-option-type-table .fw-table-cell-worksheet:not(.desc-col) .switch-row,
+.fw-option-type-table .fw-table-cell-worksheet:not(.desc-col) .button-row{
+	text-align: center;
+}
+
+.fw-option-type-table .fw-table-cell-worksheet:not(.desc-col) .button-row .fw-cell-option-wrapper {
+	display: inline-block;
+}
+
+.fw-backend-option.fw-backend-option-design-default.fw-backend-option-type-table {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.fw-table {
+	padding: 24px 27px 21px;
+}
+
+.fw-option-type-table .fw-table-cell-worksheet:not(.desc-col) .pricing-row .fw-cell-option-wrapper {
+	padding: 0 5px;
+}
+
+.fw-option-type-table .fw-table-cell-worksheet:not(.desc-col) .pricing-row .fw-table-cell-worksheet {
+	padding: 10px 5px 10px 3px;
+}

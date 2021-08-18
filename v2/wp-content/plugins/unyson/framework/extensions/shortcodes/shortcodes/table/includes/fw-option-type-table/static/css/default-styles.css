@@ -1,0 +1,223 @@
+/** table builder start **/
+
+/** table start **/
+.fw-option-type-table .fw-table {
+	width: 100%;
+	box-sizing: border-box;
+	display: table;
+	table-layout: auto;
+}
+
+/** row start **/
+.fw-option-type-table .fw-table-row {
+	width: 100%;
+	line-height: 1.5em;
+	display: table-row;
+	position: relative;
+}
+
+.fw-option-type-table .fw-template-row {
+	display: none;
+}
+
+/** cell start **/
+
+.fw-option-type-table .fw-table-gripper,
+.fw-option-type-table .fw-table-cell.fw-table-cell-worksheet {
+	cursor: pointer;
+}
+
+body.rtl .fw-option-type-table .fw-table-cell.fw-table-cell-worksheet {
+	border-right: 1px solid #e1e1e1;
+	border-left: none;
+}
+
+.fw-option-type-table .fw-table-cell {
+	display: table-cell;
+	border-left: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 10px 10px 10px 9px;
+	background: #fff;
+	height: 18px;
+	vertical-align: middle;
+	position: relative;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	padding-bottom: 9.1px;
+}
+
+.fw-option-type-table .fw-table-cell-worksheet:hover,
+.fw-option-type-table .fw-table-cell-worksheet.fw-cell-show-editor {
+	background: #f8f8f8;
+}
+
+.fw-option-type-table .fw-table-col-option {
+	border-left: none;
+	padding-bottom: 18px;
+}
+
+.fw-option-type-table .fw-table-row-delete {
+	width: 23px;
+	border-bottom: none;
+	position: relative;
+}
+
+body.rtl .fw-option-type-table .fw-table-row-delete {
+	border-left: none;
+	border-right: 1px solid #e1e1e1;
+}
+
+.fw-option-type-table .fw-table-col-delete,
+.fw-option-type-table .fw-table-cell-options {
+	border-left: none;
+	border-bottom: none;
+}
+
+.fw-option-type-table .fw-table-cell-options > .fw-backend-option-descriptor,
+.fw-option-type-table .fw-table-col-option > .fw-backend-option-descriptor{
+	display: inline;
+}
+
+.fw-option-type-table .empty-cell {
+	border: none;
+}
+
+body.rtl .fw-option-type-table .empty-cell {
+	border: none !important;
+}
+
+.fw-option-type-table .fw-table-col-delete {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.fw-option-type-table .fw-table-cell-options {
+	width: 180px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/** start column/rows class names selectors **/
+.fw-option-type-table .fw-table-row .fw-table-cell-options select {
+	width: 135px;
+	margin-left: 10px;
+}
+
+.fw-option-type-table .fw-table-col-options select {
+	max-width: 250px;
+	width: 50%;
+}
+
+.fw-option-type-table .fw-backend-option .fw-backend-option-input .fw-table-cell-options select {
+	width: auto;
+}
+/** end column/rows class names selectors **/
+
+
+/** start add column button **/
+.fw-option-type-table .fw-table-add-column {
+	display: none;
+	float: right;
+}
+
+body.rtl .fw-option-type-table .fw-table-add-column {
+	float: left;
+}
+
+.fw-option-type-table .fw-table-col-options > :nth-last-child(2) > .fw-table-add-column {
+	display: inline-block;
+}
+
+.fw-option-type-table .fw-table-col-options .fw-table-add-column .text {
+	display: none;
+}
+
+.fw-option-type-table .fw-table-col-options > .fw-table-col-option:nth-child(2) > .fw-table-add-column .text,
+.fw-option-type-table .fw-table-col-options > .fw-table-col-option:nth-child(3) > .fw-table-add-column .text,
+.fw-option-type-table .fw-table-col-options > .fw-table-col-option:nth-child(4) > .fw-table-add-column .text {
+	display: inline;
+}
+
+.fw-option-type-table .fw-table-col-options > .fw-table-col-option:nth-child(2) > .fw-table-add-column .plus,
+.fw-option-type-table .fw-table-col-options > .fw-table-col-option:nth-child(3) > .fw-table-add-column .plus,
+.fw-option-type-table .fw-table-col-options > .fw-table-col-option:nth-child(4) > .fw-table-add-column .plus {
+	display: none;
+}
+
+/** end add column button **/
+
+/** start add row button **/
+.fw-option-type-table .fw-table-add-row {
+	float: right;
+	margin-right: 10px;
+}
+/** end add row button **/
+
+.fw-option-type-table .fw-table-col-options > .fw-table-cell {
+	padding-top: 0;
+}
+
+.fw-option-type-table .fw-table-col-options > :nth-last-child(2) {
+	padding-right: 0;
+}
+
+body.rtl .fw-option-type-table .fw-table-col-options > :nth-last-child(2) {
+	padding-right: 10px;
+	padding-left: 0;
+}
+
+.fw-option-type-table .fw-table-col-options > :nth-child(2) {
+	padding-left: 0;
+}
+
+body.rtl .fw-option-type-table .fw-table-col-options > :nth-child(2) {
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.fw-option-type-table .fw-table-row-delete-btn {
+	padding-left: 4px;
+}
+
+/** cell content **/
+.fw-option-type-table .fw-table-cell-content {
+	height: 100%;
+	width: 100%;
+}
+
+.fw-option-type-table .fw-table-cell-content {
+	display: none;
+}
+
+.fw-option-type-table .fw-table-cell-content.fw-active-content {
+	display: inline-block;
+}
+
+
+.fw-option-type-table .fw-table-gripper {
+	display: inline-block;
+	color: #c0c0c0;
+}
+
+.fw-option-type-table .sortable-placeholder .fw-table-cell {
+	border-top: 1px solid #e1e1e1;
+
+}
+
+.fw-option-type-table .fw-fix-top-border {
+	border-top: 1px solid #E1E1E1;
+}
+
+/** cell content end **/
+
+/** cell end **/
+/** row end **/
+/** table end **/
+/** tablebuilder end **/

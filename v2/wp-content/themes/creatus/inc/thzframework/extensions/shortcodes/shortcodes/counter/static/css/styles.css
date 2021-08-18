@@ -1,0 +1,39 @@
+.thz-counter {
+	display: block;
+	clear: both;
+	text-align: center;
+	position: relative;
+	padding:0;
+}
+.thz-counter-count-to {
+	display: table;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.thz-counter-unit,
+.thz-counter-spacer,
+.thz-counter-count{
+	display: table-cell;
+	width: 1px;
+	vertical-align: middle;
+	line-height:1;
+}
+.thz-counter-unit-top,
+.thz-counter-unit-top .thz-counter-count-to,
+.thz-counter-unit-top .thz-counter-count,
+.thz-counter-unit-top .thz-counter-unit{
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.thz-counter-unit-top,
+.thz-counter-unit-top .thz-counter-count-to,
+.thz-counter-unit-top .thz-counter-count,
+.thz-counter-unit-top .thz-counter-unit{
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}

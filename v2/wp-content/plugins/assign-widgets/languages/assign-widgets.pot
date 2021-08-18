@@ -1,0 +1,176 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Assign Widgets\n"
+"POT-Creation-Date: 2015-05-21 23:18+0100\n"
+"PO-Revision-Date: 2015-05-20 23:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: assign-widgets.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assign-widgets.php:89
+msgid "Widget Area Generator"
+msgstr ""
+
+#: assign-widgets.php:90
+msgid "New widget area name "
+msgstr ""
+
+#: assign-widgets.php:91
+msgid "Add new widget area"
+msgstr ""
+
+#: assign-widgets.php:92
+msgid "Please add new widget area name"
+msgstr ""
+
+#: assign-widgets.php:93
+msgid "Creating widget area "
+msgstr ""
+
+#: assign-widgets.php:94
+msgid " please wait..."
+msgstr ""
+
+#: assign-widgets.php:95
+msgid "All done! Reloading..."
+msgstr ""
+
+#: assign-widgets.php:96
+msgid "Your are about to delete this widget area. Click ok to continue."
+msgstr ""
+
+#: assign-widgets.php:178 assign-widgets.php:211
+msgid "Blog "
+msgstr ""
+
+#: assign-widgets.php:180
+msgid "Single "
+msgstr ""
+
+#: assign-widgets.php:229
+msgid "Front Page"
+msgstr ""
+
+#: assign-widgets.php:230
+msgid "Blog Home Page"
+msgstr ""
+
+#: assign-widgets.php:231
+msgid "Search Page"
+msgstr ""
+
+#: assign-widgets.php:232
+msgid "404 Page"
+msgstr ""
+
+#: assign-widgets.php:233
+msgid "Author Page"
+msgstr ""
+
+#: assign-widgets.php:237
+msgid "BuddyPress"
+msgstr ""
+
+#: assign-widgets.php:260
+msgid "Posts Archive"
+msgstr ""
+
+#: assign-widgets.php:265
+msgid " Archive"
+msgstr ""
+
+#: assign-widgets.php:311
+msgid "-no title"
+msgstr ""
+
+#: assign-widgets.php:360
+msgid "Logged in users"
+msgstr ""
+
+#: assign-widgets.php:361
+msgid "Logged out users"
+msgstr ""
+
+#: assign-widgets.php:373
+msgid "Mobile"
+msgstr ""
+
+#: assign-widgets.php:374
+msgid "Desktop"
+msgstr ""
+
+#: view/backend-view.php:50
+msgid "Widget visibility type"
+msgstr ""
+
+#: view/backend-view.php:52
+msgid "Hide on selected pages/types"
+msgstr ""
+
+#: view/backend-view.php:53
+msgid "Show only on selected pages/types"
+msgstr ""
+
+#: view/backend-view.php:57
+msgid "Assigned pages or view types"
+msgstr ""
+
+#: view/backend-view.php:59
+msgid "Miscellaneous"
+msgstr ""
+
+#: view/backend-view.php:69
+msgid "Post types"
+msgstr ""
+
+#: view/backend-view.php:79
+msgid "Taxonomy Categories"
+msgstr ""
+
+#: view/backend-view.php:89
+msgid "Archives"
+msgstr ""
+
+#: view/backend-view.php:99
+msgid "User groups"
+msgstr ""
+
+#: view/backend-view.php:109
+msgid "Devices"
+msgstr ""
+
+#: view/backend-view.php:120
+msgid "Select from the list or start typing to load specific pages."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Assign Widgets"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/Themezly/AssignWidgets"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Assign widgets to selected pages and widget area generator"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themezly"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themezly.com"
+msgstr ""

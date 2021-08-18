@@ -1,0 +1,432 @@
+.fw-option-type-builder > .builder-items-types {
+	padding: 0;
+	margin-bottom: 1px; /* space for border that will appear on fixed header */
+	background-color: #fff;
+}
+
+.fw-option-type-builder.fixed-header {
+	position: relative;
+}
+
+.fw-option-type-builder.fixed-header > .builder-items-types {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.fw-option-type-builder.fixed-header.has-header-tools > .builder-items-types {
+	margin-bottom: 0;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.fw-option-type-builder > .builder-items-types > .fw-options-tabs-wrapper {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.fw-option-type-builder > .builder-items-types > .fw-builder-header-tools {
+	padding: 20px;
+}
+
+.fw-option-type-builder > .builder-items-types > .fw-builder-header-tools .fw-builder-header-post-save-button {
+	position: relative;
+	top: -5px;
+	margin-bottom: -10px;
+}
+
+.fw-option-type-builder .fw-option-type-builder-thumbnails-tab > .fw-backend-option-type-html {
+	padding: 0 16px;
+}
+.fw-modal .fw-option-type-builder .fw-option-type-builder-thumbnails-tab > .fw-backend-option-type-html {
+	padding: 1px 16px; /* 1px vertical padding for thumbnails outline */
+}
+
+.fw-option-type-builder span.fw-ext-builder-icon {
+	font-size: 16px;
+	color: #b3b3b3;
+}
+
+.fw-option-type-builder span.fw-ext-builder-icon.dashicons {
+	/* dashicons are smaller than font grid (it's like padding), I don't know why the font was created like that */
+	font-size: 20px;
+}
+
+
+/* tabs */
+
+.fw-option-type-builder > .builder-items-types .fw-options-tabs-wrapper.fw-options-tabs-first-level .fw-options-tabs-contents {
+	margin: 20px 0 0 !important;
+}
+
+.fw-option-type-builder > .builder-items-types .fw-options-tabs-wrapper.fw-options-tabs-first-level .fw-option-type-builder-thumbnails-tab > .fw-backend-option-type-html {
+	padding: 0 16px !important;
+}
+
+.fw-option-type-builder > .builder-items-types .fw-options-tabs-wrapper.fw-options-tabs-first-level .ui-tabs-nav li {
+	margin-right: 1px !important;
+}
+
+.fw-option-type-builder > .builder-items-types .fw-options-tabs-wrapper.fw-options-tabs-first-level .ui-tabs-nav a {
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	padding: 1px 14px 0 14px !important;
+	line-height: 25px !important;
+	color: #222222 !important;
+	background-color: #F1F1F1;
+}
+
+.fw-option-type-builder > .builder-items-types .fw-options-tabs-wrapper.fw-options-tabs-first-level .ui-tabs-nav .ui-state-active a {
+	color: #0074a2 !important;
+	background-color: #ffffff;
+}
+
+.fw-option-type-builder.fw-option-type-builder-tabs-count-1 > .builder-items-types .fw-options-tabs-wrapper .fw-options-tabs-list {
+	display: none;
+}
+
+.fw-option-type-builder.fw-option-type-builder-tabs-count-1 > .builder-items-types .fw-options-tabs-wrapper .fw-options-tabs-contents {
+	margin-top: 0 !important;
+}
+
+@media (max-width: 782px) {
+	.fw-option-type-builder > .builder-items-types .fw-options-tabs-wrapper .fw-options-tabs-list {
+		text-align: center;
+	}
+
+	body.rtl .fw-option-type-builder > .builder-items-types .fw-options-tabs-wrapper.fw-options-tabs-first-level .fw-options-tabs-list > ul {
+		float: none;
+	}
+
+	body.rtl .fw-option-type-builder > .builder-items-types .fullscreen-btn {
+		float: none;
+	}
+}
+
+@media (min-width: 782px) {
+	body.rtl .fw-option-type-builder > .builder-items-types .fw-options-tabs-wrapper.fw-options-tabs-first-level .fw-options-tabs-list > ul {
+		float: right;
+	}
+}
+
+/* end: tabs */
+
+
+/* builder-item-type */
+
+.fw-option-type-builder .builder-item-type {
+	width: 70px;
+	height: 70px;
+	font-size: 11px;
+	background-color: #ffffff;
+	float: left;
+	display: table;
+	position: relative;
+	outline: 1px solid #e1e1e1;
+	margin: 0 1px 1px 0;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transition: outline-color .1s ease-in;
+	transition: outline-color .1s ease-in;
+}
+
+body.rtl .fw-option-type-builder .builder-item-type {
+	float: right;
+}
+
+.fw-option-type-builder .builder-item-type:hover {
+	outline-color: #8f8f8f;
+	z-index: 9999;
+	cursor: pointer;
+}
+
+.fw-option-type-builder .builder-item-type.ui-draggable-dragging {
+	cursor: move;
+}
+
+.fw-option-type-builder .builder-item-type .item-type-icon-title {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.fw-option-type-builder .builder-item-type .item-type-icon-title .item-type-icon {
+	text-align: center;
+}
+
+.fw-option-type-builder .builder-item-type .item-type-icon-title .item-type-icon .dashicons {
+	font-size: 24px;
+	display: inline-table;
+	color: #b3b3b3;
+}
+
+.fw-option-type-builder .builder-item-type:hover .item-type-icon-title .item-type-icon .dashicons,
+.fw-option-type-builder .builder-item-type:hover span.fw-ext-builder-icon {
+	color: #8c8c8c;
+}
+
+.fw-option-type-builder .builder-item-type .item-type-icon-title .item-type-icon img {
+	display: block;
+	margin: 0 auto;
+	opacity: 0.66;
+
+	-webkit-transition: opacity .1s ease-in;
+	transition: opacity .1s ease-in;
+}
+
+.fw-option-type-builder .builder-item-type:hover .item-type-icon-title .item-type-icon img {
+	opacity: 1;
+}
+
+.fw-option-type-builder .builder-item-type .item-type-icon-title .item-type-title {
+	text-align: center;
+	line-height: 1.2;
+	font-size: 10px;
+	color: #666;
+	padding-top: 5px;
+}
+
+
+/* builder builder-item-type add animation */
+
+@-webkit-keyframes fwBuilderItemTypeAdd {
+	0% {
+		opacity: 1;
+	}
+
+	70% {
+		opacity: 0;
+
+		-webkit-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+
+	71% {
+		opacity: 0;
+
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+
+		-webkit-transform: scale3d(.3, .3, .3);
+		transform: scale3d(.3, .3, .3);
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fwBuilderItemTypeAdd {
+	0% {
+		opacity: 1;
+	}
+
+	70% {
+		opacity: 0;
+
+		-webkit-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+
+	71% {
+		opacity: 0;
+
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+
+		-webkit-transform: scale3d(.3, .3, .3);
+		transform: scale3d(.3, .3, .3);
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.fw-builder-animation-item-type-add {
+	-webkit-animation-name: fwBuilderItemTypeAdd;
+	animation-name: fwBuilderItemTypeAdd;
+
+	-webkit-animation-duration: 500ms;
+	animation-duration: 500ms;
+}
+
+/* end: builder-item-type add animation */
+
+/* end: builder-item-type */
+
+
+.fw-option-type-builder > .builder-root-items {
+	padding-top: 0px;
+}
+
+.fw-option-type-builder > .builder-root-items > .builder-items {
+	min-height: 200px;
+}
+
+.fw-option-type-builder.has-header-tools > .builder-root-items > .builder-items {
+	padding-top: 0;
+}
+
+.fw-option-type-builder.has-header-tools > .builder-root-items > .builder-items:before {
+	margin-top: -10px;
+}
+
+.fw-option-type-builder > .builder-root-items > .builder-items span.fw-ext-builder-icon {
+	bottom: -2px; /* fix for text smaller size */
+	position: relative;
+}
+
+.fw-option-type-builder > .builder-root-items > .builder-items span.fw-ext-builder-icon.dashicons {
+	bottom: 0;
+}
+
+.fw-option-type-builder > .builder-root-items > .builder-items span.fw-ext-builder-icon {
+	color: #8c8c8c;
+	margin-right: 9px;
+}
+
+.fw-option-type-builder.fw-option-type-builder-tabs-count-0 > .builder-root-items {
+	border-top-width: 0;
+}
+
+.fw-option-type-builder .builder-items {
+	padding: 10px;
+}
+
+.fw-option-type-builder .builder-items .builder-item {
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+}
+
+.fw-option-type-builder .builder-items .builder-item .controls > * {
+	vertical-align: middle;
+}
+
+.fw-option-type-builder .builder-items .builder-item .controls .unycon,
+.fw-option-type-builder .builder-items .builder-item .controls .fa {
+	margin-left: 4px;
+	margin-right: 4px;
+	font-size: 14px;
+}
+
+.fw-option-type-builder .builder-items .builder-item .controls .dashicons {
+	height: 16px;
+	line-height: 14px;
+}
+
+.fw-option-type-builder .builder-items .builder-item:hover {
+	cursor: pointer;
+}
+
+.fw-option-type-builder .builder-items .builder-item.ui-sortable-helper {
+	cursor: move;
+}
+
+.fw-option-type-builder .builder-items .builder-item.new-item {
+	animation: fwDropIn .3s ease-in;
+	animation-iteration-count: 1;
+
+	-webkit-animation: fwDropIn .3s ease-in;
+	-webkit-animation-iteration-count: 1;
+
+	-moz-animation: fwDropIn .3s ease-in;
+	-moz-animation-iteration-count: 1;
+
+	-o-animation: fwDropIn .3s ease-in;
+	-o-animation-iteration-count: 1;
+
+	-ms-animation: fwDropIn .3s ease-in;
+	-ms-animation-iteration-count: 1;
+}
+
+.fw-option-type-builder > .builder-root-items .fw-builder-placeholder {
+	display: inline-block;
+	float: none;
+	padding: 10px;
+	min-height: 50px;
+	position: relative;
+}
+
+.fw-option-type-builder > .builder-root-items .fw-builder-placeholder:before {
+	content: ' ';
+	border: 1px dashed #d8d8d8;
+	background-color: rgba(85, 85, 85, 0.03);
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+}
+
+.fw-option-type-builder > .builder-root-items .fw-builder-placeholder.no-top:before {
+	top: 0;
+}
+
+.fw-option-type-builder .builder-items .builder-item.fw-builder-item-deny-incoming-type > div > .builder-items > .fw-builder-placeholder {
+	display: none;
+}
+
+
+/* allow/deny items in _items */
+
+.fw-option-type-builder .builder-items .builder-item.fw-builder-item-allow-incoming-type > div > .builder-items {
+	/*background-color: #DDFFD2;*/
+}
+
+.fw-option-type-builder .builder-items .builder-item.fw-builder-item-deny-incoming-type > div > .builder-items {
+	/*background-color: #FFEFE7;*/
+}
+
+.fw-option-type-builder .builder-items .builder-item.fw-builder-item-deny-incoming-type > div {
+	position: relative;
+}
+
+.fw-option-type-builder .builder-items .builder-item.fw-builder-item-deny-incoming-type > div > .builder-items:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: transparent url('../img/gradient-slash.png') repeat scroll 0 0;
+	opacity: 0.65;
+}
+
+/* end: allow/deny*/
+
+
+/* backend fixes */
+
+.fw-backend-option-type-builder {
+	padding: 0;
+}
+
+.fw-backend-option-type-builder > .fw-backend-option-desc {
+	padding: 15px 25px 0;
+}
+
+.fw-option-type-builder .fw-backend-option-type-html {
+	padding-top: 0;
+	border-bottom: 0;
+}
+
+/* end: backend fixes */
+
+
+/* qtip */
+
+.qtip-fw-builder {
+	padding: 5px 10px;
+	min-width: 0;
+}
+
+.qtip-fw-builder .qtip-content {
+	text-align: center;
+}
+
+/* end: qtip */

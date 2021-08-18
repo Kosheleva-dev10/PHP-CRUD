@@ -1,0 +1,405 @@
+/* Comments 
+---------------------------------------------------*/
+/* Reply
+--------------------------------*/
+.dark-green .reply a {
+	border: 2px solid #16a085;
+	color: #16a085;
+}
+.blue .reply a {
+	border: 2px solid #2980b9;
+	color: #2980b9;
+}
+.green .reply a {
+	border: 2px solid #27ae60;
+	color: #27ae60;
+}
+.orange .reply a {
+	border: 2px solid #f39c12;
+	color: #f39c12;
+}
+.purple .reply a {
+	border: 2px solid #8e44ad;
+	color: #8e44ad;
+}
+.red .reply a {
+	border: 2px solid #c0392b;
+	color: #c0392b;
+}
+/* Reply End
+--------------------------------*/
+
+/* Comments End
+---------------------------------------------------*/
+
+/* Author Social Share
+--------------------------------*/
+.dark-green .author-social-share a {
+	background-color: transparent;  
+	border: 2px solid #16a085;  
+	color: #16a085; 
+}
+.blue .author-social-share a {
+	background-color: transparent;
+	border: 2px solid #2980b9;
+	color: #2980b9;
+}
+.green .author-social-share a {
+	background-color: transparent;
+	border: 2px solid #27ae60;
+	color: #27ae60;
+}
+.orange .author-social-share a {
+	background-color: transparent;
+	border: 2px solid #f39c12;
+	color: #f39c12;
+}
+.purple .author-social-share a {
+	background-color: transparent;
+	border: 2px solid #8e44ad;
+	color: #8e44ad;
+}
+.red .author-social-share a {
+	background-color: transparent;
+	border: 2px solid #c0392b;
+	color: #c0392b;
+}
+/* Author Social Share End
+--------------------------------*/
+
+/* Atachedment Links
+--------------------------------*/
+.dark-green .attachmentlink {
+	background-color: #16a085;
+}
+.blue .attachmentlink {
+	background-color: #2980b9;
+}
+.green .attachmentlink {
+	background-color: #27ae60;
+}
+.orange .attachmentlink {
+	background-color: #f39c12;
+}
+.purple .attachmentlink {
+	background-color: #8e44ad;
+}
+.red .attachmentlink {
+	background-color: #c0392b;
+}
+/* Atachedment Links End
+--------------------------------*/
+
+/* Blockquote 
+---------------------------------------------*/
+.dark-green blockquote {
+	background-color: #16a085;
+}
+.blue blockquote {
+	background-color: #2980b9;
+}
+.green blockquote {
+	background-color: #27ae60;
+}
+.orange blockquote {
+	background-color: #f39c12;
+}
+.purple blockquote {
+	background-color: #8e44ad;
+}
+.red blockquote {
+	background-color: #c0392b;
+}
+/* Blockquote End
+---------------------------------------------*/
+
+/* Accordions 
+---------------------------------------------*/
+/* panel Title
+----------------------------------*/
+.dark-green .panel-title a:before {
+	content: "\f068";
+}
+.dark-green .panel-title a.collapsed:before {
+	content: "\f067";
+}
+.blue .panel-title a:before {
+	content: "\f068";
+}
+.blue .panel-title a.collapsed:before {
+	content: "\f067";
+}
+.green .panel-title a:before {
+	content: "\f068";
+}
+.green .panel-title a.collapsed:before {
+	content: "\f067";
+}
+.orange .panel-title a:before {
+	content: "\f068";
+}
+.orange .panel-title a.collapsed:before {
+	content: "\f067";
+}
+.purple .panel-title a:before {
+	content: "\f068";
+}
+.purple .panel-title a.collapsed:before {
+	content: "\f067";
+}
+.red .panel-title a:before {
+	content: "\f068";
+}
+.red .panel-title a.collapsed:before {
+	content: "\f067";
+}
+
+/* Panel Title End
+----------------------------------*/
+
+.dark-green .panel-default>.panel-heading {
+	background-color: #16a085 !important;
+}
+.blue .panel-default>.panel-heading {
+	background-color: #2980b9 !important;
+}
+.green .panel-default>.panel-heading {
+	background-color: #27ae60 !important;
+}
+.orange .panel-default>.panel-heading {
+	background-color: #f39c12 !important;
+}
+.purple .panel-default>.panel-heading {
+	background-color: #8e44ad !important;
+}
+.red .panel-default>.panel-heading {
+	background-color: #c0392b !important;
+}
+
+/* Accordions End
+---------------------------------------------*/
+
+/* Progress Bar
+---------------------------------------------*/
+
+.dark-green .progress.thin .progress-percent:after {
+	border-color: #16a085 transparent transparent transparent;
+}
+.blue .progress.thin .progress-percent:after {
+	border-color: #2980b9 transparent transparent transparent;
+}
+.green .progress.thin .progress-percent:after {
+	border-color: #27ae60 transparent transparent transparent;
+}
+.orange .progress.thin .progress-percent:after {
+	border-color: #f39c12 transparent transparent transparent;
+}
+.purple .progress.thin .progress-percent:after {
+	border-color: #8e44ad transparent transparent transparent;
+}
+.red .progress.thin .progress-percent:after {
+	border-color: #c0392b transparent transparent transparent;
+}
+
+.dark-green .progress,
+.dark-green .progress-bar,
+.dark-green .progress-percent {
+	background-color: #16a085;
+}
+.blue .progress,
+.blue .progress-bar,
+.blue .progress-percent {
+	background-color: #2980b9;
+}
+.green .progress,
+.green .progress-bar,
+.green .progress-percent {
+	background-color: #27ae60;
+}
+.orange .progress,
+.orange .progress-bar,
+.orange .progress-percent {
+	background-color: #f39c12;
+}
+.purple .progress,
+.purple .progress-bar,
+.purple .progress-percent {
+	background-color: #8e44ad;
+}
+.red .progress,
+.red .progress-bar,
+.red .progress-percent {
+	background-color: #c0392b;
+}
+
+/* Progress Bar End
+---------------------------------------------*/
+
+/* News Items
+---------------------------------------------*/
+.dark-green .news-item:hover .news-title:before {
+	border-top: 4px solid #16a085;
+}
+.blue .news-item:hover .news-title:before {
+	border-top: 4px solid #2980b9;
+}
+.green .news-item:hover .news-title:before {
+	border-top: 4px solid #27ae60;
+}
+.orange .news-item:hover .news-title:before {
+	border-top: 4px solid #f39c12;
+}
+.purple .news-item:hover .news-title:before {
+	border-top: 4px solid #8e44ad;
+}
+.red .news-item:hover .news-title:before {
+	border-top: 4px solid #c0392b;
+}
+
+.dark-green .news-icon {
+	background-color: #16a085;
+}
+.blue .news-icon {
+	background-color: #2980b9;
+}
+.green .news-icon {
+	background-color: #27ae60;
+}
+.orange .news-icon {
+	background-color: #f39c12;
+}
+.purple .news-icon {
+	background-color: #8e44ad;
+}
+.red .news-icon {
+	background-color: #c0392b;
+}
+
+.dark-green .news-item:hover .news-icon {
+	background-color: #ffffff;
+	border: 5px solid #16a085;
+	color: #16a085;
+}
+.blue .news-item:hover .news-icon {
+	background-color: #ffffff;
+	border-color: #2980b9;
+	color: #2980b9;
+}
+.green .news-item:hover .news-icon {
+	background-color: #ffffff;
+	border-color: #27ae60;
+	color: #27ae60;
+}
+.orange .news-item:hover .news-icon {
+	background-color: #ffffff;
+	border-color: #f39c12;
+	color: #f39c12;
+}
+.purple .news-item:hover .news-icon {
+	background-color: #ffffff;
+	border-color: #8e44ad;
+	color: #8e44ad;
+}
+.red .news-item:hover .news-icon {
+	background-color: #ffffff;
+	border-color: #c0392b;
+	color: #c0392b;
+}
+/* News Items End
+---------------------------------------------*/
+
+/* Pricing Table
+---------------------------------------------*/
+.dark-green .table {
+	border: 1px solid #16a085;
+}
+.blue .table {
+	border: 1px solid #2980b9;
+}
+.green .table {
+	border: 1px solid #27ae60;
+}
+.orange .table {
+	border: 1px solid #f39c12;
+}
+.purple .table {
+	border: 1px solid #8e44ad;
+}
+.red .table {
+	border: 1px solid #c0392b;
+}
+
+/* Plan Name
+----------------------------------*/
+.dark-green .plan-name {
+	background-color: #16a085;
+}
+.blue .plan-name {
+	background-color: #2980b9;
+}
+.green .plan-name {
+	background-color: #27ae60;
+}
+.orange .plan-name {
+	background-color: #f39c12;
+}
+.purple .plan-name {
+	background-color: #8e44ad;
+}
+.red .plan-name {
+	background-color: #c0392b;
+}
+
+/* Plan Name End
+----------------------------------*/
+
+/* Package price
+-----------------------------------*/
+
+.dark-green .table:hover .price-details {
+	background-color: #16a085;
+}
+.blue .table:hover .price-details {
+	background-color: #2980b9;
+}
+.green .table:hover .price-details {
+	background-color: #27ae60;
+}
+.orange .table:hover .price-details {
+	background-color: #f39c12; 
+}
+.purple .table:hover .price-details {
+	background-color: #8e44ad;
+}
+.red .table:hover .price-details {
+	background-color: #c0392b;
+}
+
+/* Package price End
+-----------------------------------*/
+
+/* Price Details
+-----------------------------------*/
+.dark-green .price-details {
+	color: #16a085;
+}
+.blue .price-details {
+	color: #2980b9;
+}
+.green .price-details {
+	color: #27ae60;	
+}
+.orange .price-details {
+	color: #f39c12;	
+}
+.pruple .price-details {
+	color: #8e44ad;	
+}
+.red .price-details {
+	color: #c0392b;	
+}
+/* Package Price
+-----------------------------------*/
+
+/* Pricing Table End
+---------------------------------------------*/

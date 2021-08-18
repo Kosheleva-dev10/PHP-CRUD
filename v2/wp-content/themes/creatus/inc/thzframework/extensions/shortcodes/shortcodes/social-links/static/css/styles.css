@@ -1,0 +1,33 @@
+/* Socials shortcode*/
+.thz-socials-shortcode,
+.thz-socials-shortcode .thz-socials-holder {
+	display: block;
+	position: relative;
+}
+.thz-socials-shortcode.left .thz-social-links {
+	float: left;
+}
+
+#thz-wrapper .thz-socials-shortcode.left .thz-social-links a:last-child{
+	margin-right:0;
+}
+.thz-socials-shortcode.right .thz-social-links {
+	float: right;
+}
+#thz-wrapper .thz-socials-shortcode.right .thz-social-links a:first-child{
+	margin-left:0;
+}
+.thz-socials-shortcode.center {
+	text-align: center;
+}
+.thz-socials-shortcode.center .thz-social-links {
+	margin: 0 auto;
+}
+.thz-socials-shortcode:before,
+.thz-socials-shortcode:after,
+.thz-socials-shortcode .thz-socials-holder:before,
+.thz-socials-shortcode .thz-socials-holder:after {
+	content: '';
+	display: table;
+	clear: both;
+}
